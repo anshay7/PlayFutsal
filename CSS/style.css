@@ -1,0 +1,319 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(200,200,200);
+}
+
+h2 {
+
+}
+
+.body-wraper {
+  margin: auto;
+  background-color: black;
+  background-image: url("images/w4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: calc( 100vw - 60px);
+  min-height: calc(100vh - 30px);
+  padding-top: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+  color: rgb(100,100,100);
+}
+
+
+.navigation {
+  margin: auto;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+  box-shadow: 0px 0px 4px 4px red;
+}
+
+.navigation .hide {
+  margin: 5px;
+  display: inline-block;
+  float: right;
+  height: 40px;
+  width: 50px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  cursor: pointer;
+}
+
+
+.navigation .hide:hover {
+ opacity: 0.6;
+}
+
+.navigation ul {
+  text-align: center;
+}
+
+
+.navigation ul li {
+   display: inline-block;
+   line-height: 50px;
+   list-style: none;
+   margin-left: 5px;
+   padding: 0px 10px;
+ }
+
+ .navigation ul li:hover {
+    opacity: 0.6;
+  }
+
+ .index-info {
+   position: relative;
+   height: calc(100vh - 80px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+.index-info .info-background {
+ border-radius: 20px;
+ text-align: center;
+ background-image: url("images/w5.jpg");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height: 200px;
+ width: 300px;
+}
+
+
+.index-info .info {
+ word-wrap: break-word;
+ background-color: rgba(0,0,0,0.4);
+ border-radius: 20px;
+ text-align: center;
+ min-height: 200px;
+ width: 300px;
+}
+
+
+.index-info .info h1{
+ color: rgb(200,200,200);
+ text-transform: capitalize;
+}
+
+.index-info .info h3{
+  color: rgba(200,200,200);
+  margin-top: 20px;
+}
+
+.form-wraper {
+  color: white;
+}
+
+.form-wraper h4{
+  color: black;
+}
+
+.log-in-page {
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-wraper {
+  margin-top: 4px;
+  min-height: 800px;
+  background-image: url("images/w4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-wraper .signin{
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.form-wraper .login{
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.heades {
+  color: rgb(200,0,0);
+  font-size: 24px;
+}
+
+.aboutus-wraper .aboutinfo {
+  position: absolute;
+  right: 30px;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.aboutinfo .developer{
+  text-align: center;
+  width: 150px;
+  height: 100px;
+}
+
+.aboutinfo .developer img{
+  width: 100px;
+}
+
+
+.aboutinfo .social-media{
+  border: 1px solid rgb(100,100,100);
+ padding-top: 3px;
+ align-items: center;
+ background: white;
+ display: inline-block;
+}
+
+.aboutinfo .social-media img{
+  height: 50px;
+  width: 50px;
+}
+
+.about-playfutsal {
+  position: absolute;
+  top: 200px;
+  left: calc((100% - 450px)/2);
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+  width: 450px;
+  height: 500px;
+}
+
+.about-playfutsal .play-head{
+  color: rgb(200,200,200);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  color: rgb(150,150,150);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* footsals */
+
+li {
+  list-style: none;
+}
+
+
+
+/* comments */
+
+.comment-container {
+  width: calc( 100vw - 60px);
+
+}
+
+.comment-wraper {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-container .comments-show{
+  height: 100px;
+  width: calc( 100vw - 200px);
+  margin: auto;
+  background-color: white;
+  margin-top: 30px;
+  display: block;
+}
+
+.comment-wraper .comment{
+  padding: 30px;
+  background-color: rgb(0,0,0,0.3);
+}
+
+.comment-wraper label{
+  color: white;
+  font-size: 18px;
+}
+
+.comment-wraper button{
+  border-style: none;
+  width: 60px;
+  height: 30px;
+  color: rgb(200,200,200);
+  background-color: rgb(0,0,150);
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.comment-wraper button:hover{
+    opacity: 0.6;
+}
+
+.comment-wraper input{
+  height: 20px;
+  width: 200px;
+}
+
+.comment-wraper textarea{
+  resize: none;
+  width: 200px;
+  height: 100px;
+}
+
+ @media screen and (max-width: 800px) {
+
+
+   .navigation ul li {
+      display: inline-block;
+      line-height: 50px;
+      list-style: none;
+      margin-left: 10px;
+    }
+
+    a{
+      text-decoration: none;
+      font-size: 15px;
+      font-family: arial;
+    }
+
+    .about-playfutsal {
+      position: absolute;
+      left: calc((100% - 450px)/2);
+      border-radius: 20px;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.7);
+      width: 400px;
+    }
+
+
+ }
